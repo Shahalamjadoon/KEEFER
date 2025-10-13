@@ -704,13 +704,18 @@ font-weight: bold;
     font-family: sans-serif;
     margin-bottom: 1.5%;
 }
-
+.medscree{
+    margin-left: 16%;
+}
+.headlast2div{
+    display: flex;
+}
 .lasttdiv{
     width: 20vw; 
 }
 
 .cmbineitems{
-    margin-left: 2%;
+    margin-left: 16%;
 }
 
 .clientsdv h1{
@@ -809,7 +814,7 @@ font-weight: bolder;
 } 
 
 
-/*################## Mobile screen media quire ################*/
+/*################## Mobilescreen ################*/
 
 @media(max-width: 768px){
  .keeferdv{
@@ -932,7 +937,7 @@ font-size: 3rem;
     margin-top: 4%;
     height: 100%;
     width: 100%;
-    background-image: url("./pics/form_bg.jpg   ");
+    background-image: url("./pics/form_bg.jpg ");
     background-repeat: no-repeat;
     background-size: cover;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4)
@@ -1742,7 +1747,7 @@ font-weight: bolder;
     }
 }
 
-/*######### Tablet Screen ##################*/
+/************** TabletScreen ****************/
 
 
 @media(min-width: 769px) and (max-width: 1280px){
@@ -1839,8 +1844,17 @@ font-weight: bolder;
         
 }
 
+    .headlast2div{
+        width: 100%;
+        display: flex;
+    }
 
-
+    .midddiv{
+    width: 48%;
+}
+.lefttdiv{
+    width: 48%;
+}
 
     li{
     display: flex;
@@ -1958,7 +1972,6 @@ font-weight: bolder;
     text-align: start;
     align-items: start;
     display: flex;
-   
     justify-content: start;
     
 }
@@ -2354,7 +2367,7 @@ background-color: brown;
   .lefttdiv{
     
     margin-left: 0%;
-    width: 100%;
+    /* width: 48%; */
     letter-spacing: 3px;
 }  
 
@@ -2376,7 +2389,7 @@ background-color: brown;
 
    .greydiv{
     
-    width: 88vw;
+    width: 96%;
     display: flex;
     margin-top: 0%;
     margin-bottom: 3%;
@@ -2390,17 +2403,17 @@ background-color: brown;
 
     .greydiv img{
     height: 16.5vh;
-    width: 2vw;
+    width: 1vw;
 }
 
 
 
  .greydiv h2{
-    font-family: sans-serif;
-    color: white;
-    margin-left: 4%;
-    margin-top: 2%;
-font-size: 25px;
+   font-family: sans-serif;
+        color: white;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 27px;
 }   
 
 
@@ -2415,9 +2428,9 @@ font-size: 25px;
 
   .greyhb button{
     background-color: rgba(123, 120, 120, 0.899);
-    margin-top:0%;
-margin-left: 75%;
-font-size: 18px;
+    margin-top:7%;
+margin-left: 65%;
+font-size: 14px;
 border: none;
 color: white;
 font-weight: bold;
@@ -2437,16 +2450,17 @@ height: 5vh;
 
 
    .learnmoreabout h1{
-    font-size: 22px;
     margin-bottom: 5%;
     font-family: sans-serif;
-    
+    width: 62%;
+    font-size: 27px;
+    margin-left: -11%;
 } 
 
 
 
    .learnmoreabout span{
-    font-size: 22px;
+    font-size: 27px;
     font-family: sans-serif;
 } 
 
@@ -2455,6 +2469,7 @@ height: 5vh;
     .xyz{
     margin-left: 24%;
     margin-bottom: 5%;
+    font-size: 13px;
 }
 
  .greyhb span{
@@ -2474,8 +2489,8 @@ height: 5vh;
 
     .bighead h1{
     color: black;
-    font-size: 25px;
-    margin-left: 23%;
+    font-size: 33px;
+    margin-left: 9%;
 }
 
 .midparagraph{
@@ -2487,9 +2502,9 @@ height: 5vh;
   .midparagraph p{
     
     font-family: sans-serif;
-    margin-bottom: 1%;
-    font-size: 16px;
-    width: 95%;
+        margin-bottom: 1%;
+        font-size: 18px;
+        width: 94%;
 }  
 
 
