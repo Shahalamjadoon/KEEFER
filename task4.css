@@ -1745,6 +1745,9 @@ font-weight: bolder;
     margin: 4px;
     margin-left: 65%;
     }
+    .headlast2div{
+    flex-wrap: wrap;
+    }
 }
 
 /************** TabletScreen ****************/
